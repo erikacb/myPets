@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="kdE-V3-4cD">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <scenes>
+        <!--myPets-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="HomeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="myPets" id="44Q-kL-S30">
+                        <barButtonItem key="leftBarButtonItem" style="plain" systemItem="add" id="8or-qF-JLO">
+                            <connections>
+                                <action selector="addPet:" destination="BYZ-38-t0r" id="PJL-O7-SlU"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="compose" id="AsU-D8-enU">
+                            <connections>
+                                <action selector="moreStuff:" destination="BYZ-38-t0r" id="eNW-li-bzD"/>
+                                <segue destination="EAd-Ra-7mO" kind="show" identifier="MoreStuff" id="Epr-wz-hxF"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <segue destination="luz-oB-CbR" kind="show" identifier="AddPet" id="KUZ-KZ-egc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1098" y="247.5"/>
+        </scene>
+        <!--More View Controller-->
+        <scene sceneID="X7n-k4-2vO">
+            <objects>
+                <viewController id="EAd-Ra-7mO" customClass="MoreViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RfY-Hi-vN1"/>
+                        <viewControllerLayoutGuide type="bottom" id="p9M-hU-W03"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9jW-Ba-q65">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="54o-Zn-dox" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1968" y="247.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="1Hj-Jz-sBD">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="kdE-V3-4cD" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="p4r-Pf-t8l">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="2i4-fv-gp0"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J8Z-4F-d7n" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="264" y="247.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="L0z-Rs-WGs">
+            <objects>
+                <viewController id="luz-oB-CbR" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gGf-os-8zm"/>
+                        <viewControllerLayoutGuide type="bottom" id="w3E-8M-dUV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2dw-Qd-5KY">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9iw-no-iYn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1098" y="1008.75"/>
+        </scene>
+    </scenes>
+</document>

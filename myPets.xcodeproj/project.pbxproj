@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E838EFFB1C46F3D400C9ABF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E838EFFA1C46F3D400C9ABF3 /* main.m */; };
+		E838EFFE1C46F3D400C9ABF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E838EFFD1C46F3D400C9ABF3 /* AppDelegate.m */; };
+		E838F0041C46F3D400C9ABF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E838F0021C46F3D400C9ABF3 /* Main.storyboard */; };
+		E838F0061C46F3D400C9ABF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E838F0051C46F3D400C9ABF3 /* Assets.xcassets */; };
+		E838F0091C46F3D400C9ABF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E838F0071C46F3D400C9ABF3 /* LaunchScreen.storyboard */; };
+		E838F0141C46F3D400C9ABF3 /* myPetsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E838F0131C46F3D400C9ABF3 /* myPetsTests.m */; };
+		E838F01F1C46F3D400C9ABF3 /* myPetsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E838F01E1C46F3D400C9ABF3 /* myPetsUITests.m */; };
+		E838F02E1C46F5C300C9ABF3 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E838F02D1C46F5C300C9ABF3 /* HomeViewController.m */; };
+		E838F0311C46F69000C9ABF3 /* AddPetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E838F0301C46F69000C9ABF3 /* AddPetViewController.m */; };
+		E838F0371C46F74800C9ABF3 /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E838F0361C46F74800C9ABF3 /* MoreViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E838F0101C46F3D400C9ABF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E838EFEE1C46F3D400C9ABF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E838EFF51C46F3D400C9ABF3;
+			remoteInfo = myPets;
+		};
+		E838F01B1C46F3D400C9ABF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E838EFEE1C46F3D400C9ABF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E838EFF51C46F3D400C9ABF3;
+			remoteInfo = myPets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E838EFF61C46F3D400C9ABF3 /* myPets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myPets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E838EFFA1C46F3D400C9ABF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E838EFFC1C46F3D400C9ABF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E838EFFD1C46F3D400C9ABF3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E838F0031C46F3D400C9ABF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E838F0051C46F3D400C9ABF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E838F0081C46F3D400C9ABF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E838F00A1C46F3D400C9ABF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E838F00F1C46F3D400C9ABF3 /* myPetsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myPetsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E838F0131C46F3D400C9ABF3 /* myPetsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myPetsTests.m; sourceTree = "<group>"; };
+		E838F0151C46F3D400C9ABF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E838F01A1C46F3D400C9ABF3 /* myPetsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myPetsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E838F01E1C46F3D400C9ABF3 /* myPetsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myPetsUITests.m; sourceTree = "<group>"; };
+		E838F0201C46F3D400C9ABF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E838F02C1C46F5C300C9ABF3 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		E838F02D1C46F5C300C9ABF3 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		E838F02F1C46F69000C9ABF3 /* AddPetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPetViewController.h; sourceTree = "<group>"; };
+		E838F0301C46F69000C9ABF3 /* AddPetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPetViewController.m; sourceTree = "<group>"; };
+		E838F0351C46F74800C9ABF3 /* MoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MoreViewController.h; path = ../MoreViewController.h; sourceTree = "<group>"; };
+		E838F0361C46F74800C9ABF3 /* MoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MoreViewController.m; path = ../MoreViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E838EFF31C46F3D400C9ABF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E838F00C1C46F3D400C9ABF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E838F0171C46F3D400C9ABF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E838EFED1C46F3D400C9ABF3 = {
+			isa = PBXGroup;
+			children = (
+				E838EFF81C46F3D400C9ABF3 /* myPets */,
+				E838F0121C46F3D400C9ABF3 /* myPetsTests */,
+				E838F01D1C46F3D400C9ABF3 /* myPetsUITests */,
+				E838EFF71C46F3D400C9ABF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E838EFF71C46F3D400C9ABF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E838EFF61C46F3D400C9ABF3 /* myPets.app */,
+				E838F00F1C46F3D400C9ABF3 /* myPetsTests.xctest */,
+				E838F01A1C46F3D400C9ABF3 /* myPetsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E838EFF81C46F3D400C9ABF3 /* myPets */ = {
+			isa = PBXGroup;
+			children = (
+				E838EFFC1C46F3D400C9ABF3 /* AppDelegate.h */,
+				E838EFFD1C46F3D400C9ABF3 /* AppDelegate.m */,
+				E838F02C1C46F5C300C9ABF3 /* HomeViewController.h */,
+				E838F02D1C46F5C300C9ABF3 /* HomeViewController.m */,
+				E838F02F1C46F69000C9ABF3 /* AddPetViewController.h */,
+				E838F0301C46F69000C9ABF3 /* AddPetViewController.m */,
+				E838F0351C46F74800C9ABF3 /* MoreViewController.h */,
+				E838F0361C46F74800C9ABF3 /* MoreViewController.m */,
+				E838F0021C46F3D400C9ABF3 /* Main.storyboard */,
+				E838F0051C46F3D400C9ABF3 /* Assets.xcassets */,
+				E838F0071C46F3D400C9ABF3 /* LaunchScreen.storyboard */,
+				E838F00A1C46F3D400C9ABF3 /* Info.plist */,
+				E838EFF91C46F3D400C9ABF3 /* Supporting Files */,
+			);
+			path = myPets;
+			sourceTree = "<group>";
+		};
+		E838EFF91C46F3D400C9ABF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E838EFFA1C46F3D400C9ABF3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E838F0121C46F3D400C9ABF3 /* myPetsTests */ = {
+			isa = PBXGroup;
+			children = (
+				E838F0131C46F3D400C9ABF3 /* myPetsTests.m */,
+				E838F0151C46F3D400C9ABF3 /* Info.plist */,
+			);
+			path = myPetsTests;
+			sourceTree = "<group>";
+		};
+		E838F01D1C46F3D400C9ABF3 /* myPetsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E838F01E1C46F3D400C9ABF3 /* myPetsUITests.m */,
+				E838F0201C46F3D400C9ABF3 /* Info.plist */,
+			);
+			path = myPetsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E838EFF51C46F3D400C9ABF3 /* myPets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E838F0231C46F3D400C9ABF3 /* Build configuration list for PBXNativeTarget "myPets" */;
+			buildPhases = (
+				E838EFF21C46F3D400C9ABF3 /* Sources */,
+				E838EFF31C46F3D400C9ABF3 /* Frameworks */,
+				E838EFF41C46F3D400C9ABF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myPets;
+			productName = myPets;
+			productReference = E838EFF61C46F3D400C9ABF3 /* myPets.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E838F00E1C46F3D400C9ABF3 /* myPetsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E838F0261C46F3D400C9ABF3 /* Build configuration list for PBXNativeTarget "myPetsTests" */;
+			buildPhases = (
+				E838F00B1C46F3D400C9ABF3 /* Sources */,
+				E838F00C1C46F3D400C9ABF3 /* Frameworks */,
+				E838F00D1C46F3D400C9ABF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E838F0111C46F3D400C9ABF3 /* PBXTargetDependency */,
+			);
+			name = myPetsTests;
+			productName = myPetsTests;
+			productReference = E838F00F1C46F3D400C9ABF3 /* myPetsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E838F0191C46F3D400C9ABF3 /* myPetsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E838F0291C46F3D400C9ABF3 /* Build configuration list for PBXNativeTarget "myPetsUITests" */;
+			buildPhases = (
+				E838F0161C46F3D400C9ABF3 /* Sources */,
+				E838F0171C46F3D400C9ABF3 /* Frameworks */,
+				E838F0181C46F3D400C9ABF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E838F01C1C46F3D400C9ABF3 /* PBXTargetDependency */,
+			);
+			name = myPetsUITests;
+			productName = myPetsUITests;
+			productReference = E838F01A1C46F3D400C9ABF3 /* myPetsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E838EFEE1C46F3D400C9ABF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = ErikaBueno;
+				TargetAttributes = {
+					E838EFF51C46F3D400C9ABF3 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					E838F00E1C46F3D400C9ABF3 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = E838EFF51C46F3D400C9ABF3;
+					};
+					E838F0191C46F3D400C9ABF3 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = E838EFF51C46F3D400C9ABF3;
+					};
+				};
+			};
+			buildConfigurationList = E838EFF11C46F3D400C9ABF3 /* Build configuration list for PBXProject "myPets" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E838EFED1C46F3D400C9ABF3;
+			productRefGroup = E838EFF71C46F3D400C9ABF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E838EFF51C46F3D400C9ABF3 /* myPets */,
+				E838F00E1C46F3D400C9ABF3 /* myPetsTests */,
+				E838F0191C46F3D400C9ABF3 /* myPetsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E838EFF41C46F3D400C9ABF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E838F0091C46F3D400C9ABF3 /* LaunchScreen.storyboard in Resources */,
+				E838F0061C46F3D400C9ABF3 /* Assets.xcassets in Resources */,
+				E838F0041C46F3D400C9ABF3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E838F00D1C46F3D400C9ABF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E838F0181C46F3D400C9ABF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E838EFF21C46F3D400C9ABF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E838EFFE1C46F3D400C9ABF3 /* AppDelegate.m in Sources */,
+				E838EFFB1C46F3D400C9ABF3 /* main.m in Sources */,
+				E838F0311C46F69000C9ABF3 /* AddPetViewController.m in Sources */,
+				E838F02E1C46F5C300C9ABF3 /* HomeViewController.m in Sources */,
+				E838F0371C46F74800C9ABF3 /* MoreViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E838F00B1C46F3D400C9ABF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E838F0141C46F3D400C9ABF3 /* myPetsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E838F0161C46F3D400C9ABF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E838F01F1C46F3D400C9ABF3 /* myPetsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E838F0111C46F3D400C9ABF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E838EFF51C46F3D400C9ABF3 /* myPets */;
+			targetProxy = E838F0101C46F3D400C9ABF3 /* PBXContainerItemProxy */;
+		};
+		E838F01C1C46F3D400C9ABF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E838EFF51C46F3D400C9ABF3 /* myPets */;
+			targetProxy = E838F01B1C46F3D400C9ABF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E838F0021C46F3D400C9ABF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E838F0031C46F3D400C9ABF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E838F0071C46F3D400C9ABF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E838F0081C46F3D400C9ABF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E838F0211C46F3D400C9ABF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E838F0221C46F3D400C9ABF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E838F0241C46F3D400C9ABF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = myPets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ErikaBueno.myPets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E838F0251C46F3D400C9ABF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = myPets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ErikaBueno.myPets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E838F0271C46F3D400C9ABF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = myPetsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ErikaBueno.myPetsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myPets.app/myPets";
+			};
+			name = Debug;
+		};
+		E838F0281C46F3D400C9ABF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = myPetsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ErikaBueno.myPetsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myPets.app/myPets";
+			};
+			name = Release;
+		};
+		E838F02A1C46F3D400C9ABF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = myPetsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ErikaBueno.myPetsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = myPets;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E838F02B1C46F3D400C9ABF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = myPetsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ErikaBueno.myPetsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = myPets;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E838EFF11C46F3D400C9ABF3 /* Build configuration list for PBXProject "myPets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E838F0211C46F3D400C9ABF3 /* Debug */,
+				E838F0221C46F3D400C9ABF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E838F0231C46F3D400C9ABF3 /* Build configuration list for PBXNativeTarget "myPets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E838F0241C46F3D400C9ABF3 /* Debug */,
+				E838F0251C46F3D400C9ABF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E838F0261C46F3D400C9ABF3 /* Build configuration list for PBXNativeTarget "myPetsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E838F0271C46F3D400C9ABF3 /* Debug */,
+				E838F0281C46F3D400C9ABF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E838F0291C46F3D400C9ABF3 /* Build configuration list for PBXNativeTarget "myPetsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E838F02A1C46F3D400C9ABF3 /* Debug */,
+				E838F02B1C46F3D400C9ABF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E838EFEE1C46F3D400C9ABF3 /* Project object */;
+}
